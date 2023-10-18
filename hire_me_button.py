@@ -6,7 +6,7 @@ from bokeh.models import Button, Div
 from bokeh.io import show, curdoc
 
 # Create the Hire Me! button
-button = Button(label="Hire Me!", button_type="success")
+button = Button(label="Hire Me!", button_type="success", width=250, height=150)
 
 # Create hidden Div to show info when button is clicked
 div = Div(text="", width=600, height=600)
