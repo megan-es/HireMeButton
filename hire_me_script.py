@@ -6,15 +6,15 @@ from bokeh.models import Button, Div
 from bokeh.io import show, curdoc
 
 # Create the Hire Me! button
-button = Button(label="Hire Me!", button_type="success", width=250, height=150)
-
+button = Button(label="Hire Me!", button_type="primary", width=250, height=150)
+ 
 # Create hidden Div to show info when button is clicked
-div = Div(text="", width=600, height=600)
+div = Div(text="", width=600, height=600) 
 
 # HTML content to be displayed when button is clicked
 content = """
 <br>
-    <b style='font-size: 1.2em;'>About Me:</b>
+    <b style='font-size: 1.5em;'>About Me:</b>
     <ul style='padding-left: 20px; margin-top: 10px;'>
         <li>Data Analyst proficient in SQL, Python, Excel, and Tableau</li>
         <li>Currently based out of the Greater Seattle Area</li>
