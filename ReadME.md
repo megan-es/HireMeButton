@@ -1,26 +1,38 @@
-Interactive "Hire Me!" Button with Bokeh
+# Hire Me Button Project
 
-This project showcases an interactive "Hire Me!" button developed using the Bokeh library. When clicked, the button reveals a brief introduction and some essential links, such as LinkedIn, Github, and Tableau Public profiles.
+## Project Overview
 
-Features:
-An interactive button that, when clicked, displays personal and professional details.
-Links to LinkedIn, Github, and Tableau Public profiles for easy navigation and connection.
-Developed using Bokeh for a seamless integration into web applications.
+This project is a simple interactive web application designed with the Bokeh library in Python. It features a "Hire Me!" button that, when clicked, displays details about a Data Analyst's professional skills and links to their professional profiles.
 
-Setup:
-Ensure you have the Bokeh library installed. If not, install it using pip:
-Copy code
+## Features
+
+- A prominently displayed "Hire Me!" button.
+- An information panel that reveals more about the analyst's skills, experience, and education upon interacting with the button.
+- Direct links to professional profiles and portfolios.
+
+## Installation
+
+Before running this project, ensure that you have Python installed on your system. You can download Python [here](https://www.python.org/downloads/).
+
+To install Bokeh, open your terminal and run:
+
+```bash
 pip install bokeh
+```
 
-Running the Script:
-To run the script, navigate to the directory containing the Python script.
-Use the following command to serve the script using Bokeh:
-css
-Copy code
-bokeh serve --show python_script.py
-This will automatically open a browser window displaying the interactive button.
+For more details on installation, refer to the Bokeh Installation Guide.
 
-How it Works:
-The Bokeh library is utilized to create an interactive button and a hidden Div element. The button is initially displayed, and when clicked, the hidden Div is updated with content containing personal and professional details.
+## Running the Application
 
-This project serves as a dynamic and interactive way to present one's professional credentials in a fun and engaging manner. It can easily be integrated into personal websites, portfolios, or other platforms.
+To run the application, navigate to the project directory in your terminal and execute:
+```bash
+bokeh serve --show your_script_name.py
+```
+Replace your_script_name.py with the name of your Python script.
+
+## Documentation
+
+For more information on working with Bokeh and its features, consult the following documentation:
+
+[Bokeh User Guide](https://docs.bokeh.org/en/latest/docs/user_guide.html)
+[Bokeh Reference Guide](https://docs.bokeh.org/en/latest/docs/reference.html)
